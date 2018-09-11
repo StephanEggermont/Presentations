@@ -1,7 +1,7 @@
 # Presentations
 Creating presentations from Pharo, using Bloc
 
-##Installation
+## Installation
 
 ```smalltalk
 Metacello new
