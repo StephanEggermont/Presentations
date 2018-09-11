@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElementEventListener",
+	"category" : "Presentations-Drawing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"colorWell",
+		"dragOffset",
+		"root"
+	],
+	"name" : "PREColorPanelListener",
+	"type" : "normal"
+}

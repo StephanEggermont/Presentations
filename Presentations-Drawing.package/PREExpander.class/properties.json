@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "Presentations-Drawing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textPane",
+		"shapePane",
+		"fontPane",
+		"colorPane"
+	],
+	"name" : "PREExpander",
+	"type" : "normal"
+}

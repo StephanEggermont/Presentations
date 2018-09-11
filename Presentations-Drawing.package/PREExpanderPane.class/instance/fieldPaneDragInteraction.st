@@ -1,0 +1,3 @@
+accessing
+fieldPaneDragInteraction
+	^PREFieldPaneDragInteraction default 

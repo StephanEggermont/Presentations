@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PREDragWell",
+	"category" : "Presentations-Drawing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PREColorWell",
+	"type" : "normal"
+}

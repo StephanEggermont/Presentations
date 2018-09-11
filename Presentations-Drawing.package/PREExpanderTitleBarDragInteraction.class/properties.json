@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElementEventListener",
+	"category" : "Presentations-Drawing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"inspector",
+		"dragOffset",
+		"dragIndex",
+		"placeholder",
+		"expander",
+		"expanderTitleBar",
+		"expanderPane"
+	],
+	"name" : "PREExpanderTitleBarDragInteraction",
+	"type" : "normal"
+}
