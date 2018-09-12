@@ -1,17 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "BlElement",
+	"super" : "BlElementEventListener",
 	"category" : "Presentations-Drawing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"textPane",
-		"shapePane",
-		"fontPane",
-		"colorPane",
-		"stylePane"
+		"dragOffset"
 	],
-	"name" : "PREExpander",
+	"name" : "PREFontAttributeWellListener",
 	"type" : "normal"
 }

@@ -1,17 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "BlElement",
+	"super" : "PREDragWell",
 	"category" : "Presentations-Drawing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"textPane",
-		"shapePane",
-		"fontPane",
-		"colorPane",
-		"stylePane"
+		"character",
+		"attribute"
 	],
-	"name" : "PREExpander",
+	"name" : "PREFontAttributeWell",
 	"type" : "normal"
 }

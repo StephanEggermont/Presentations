@@ -11,8 +11,10 @@ initialize
 	textPane := PREExpanderPane titled: 'Fields'.
 	shapePane := PREExpanderPane titled: 'Shape'.
 	fontPane := PREExpanderPane titled: 'Font'.
+	stylePane := PREExpanderPane titled: 'Style'.
+	stylePane pane: PREFontAttributesPanel new.
 	colorPane := PREExpanderPane titled: 'Color'.
-	colorPane pane: PREColorPanel new.
+	colorPane pane: PREColorPanel new.	
 	textPane addField: 'Text'.
 	textPane addField: 'Date'.
 	textPane addField: 'Money'.
@@ -20,6 +22,7 @@ initialize
 	self addChild: textPane.
 	self addChild: shapePane.
 	self addChild: fontPane.
+	self addChild: stylePane.
 	self addChild: colorPane.
 	
 	

@@ -1,4 +1,6 @@
 adding
 addFontAttributeWells
-	#(yellow paleGreen paleBlue green) do: [ :colorName | 
-		self addColorWell: (Color perform: colorName)] 
+	self addChild: ( PREFontAttributeWell character: 'B' attribute: BrFontWeightAttribute bold).
+	self addChild: ( PREFontAttributeWell character: 'I' attribute: BrFontItalicAttribute new).
+	self addChild: ( PREFontAttributeWell character: 'N' attribute: BrFontNormalAttribute new).
+	 
