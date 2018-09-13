@@ -3,6 +3,7 @@ copyMe: evt
 	target ifNotNil: [ | field newEvt|
 		field := PREFieldPane titled: target title.
 		field background: target background.
+		field border: target border.
 		target parent addChild: field.
 		field relocate: 10@10 + target position.
 		field addEventHandler: PREFieldOnFormInteraction new.  
