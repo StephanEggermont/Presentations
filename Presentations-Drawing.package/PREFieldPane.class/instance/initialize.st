@@ -16,3 +16,4 @@ initialize
 		fontSize: 16;
 		yourself.
 	self addChild: textElement.
+	editing := false.
