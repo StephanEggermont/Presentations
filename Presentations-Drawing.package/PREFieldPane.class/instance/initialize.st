@@ -11,4 +11,8 @@ initialize
 		preventMouseEvents;
 		clipChildren: false;
 		yourself.
+	textAttributes := BlTextAttributesBuilder new 
+		fontName: 'Arial';
+		fontSize: 16;
+		yourself.
 	self addChild: textElement.

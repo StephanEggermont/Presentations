@@ -1,7 +1,7 @@
 initialization
-setFontAttribute: anAttributeSelector
+setTextColor: aColor
 	|text|
 	text := title asRopedText.
-	textAttributes perform: anAttributeSelector.
+	textAttributes foreground: aColor.
 	text attributes: textAttributes attributes from: 1 to: text size.
 	self children first text: text.

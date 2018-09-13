@@ -6,6 +6,6 @@ dragEndEvent: anEvent
 	space := me space.
 	space root removeChild: me.
 	target := space root findMouseEventTargetAt: anEvent position.
-	target ifNotNil: [ (target respondsTo: #background:) ifTrue: [ 
-			target background: me color ] ].
+	target ifNotNil: [ (target respondsTo: #dropColor:) ifTrue: [ 
+			target dropColor: me color ] ].
 	anEvent consumed: true.
