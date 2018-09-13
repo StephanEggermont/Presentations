@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"dragOffset"
+		"dragOffset",
+		"elevation"
 	],
 	"name" : "PREDragTopListener",
 	"type" : "normal"
