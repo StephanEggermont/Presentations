@@ -2,12 +2,13 @@ accessing
 character: aCharacter attribute: aFontAttributeSelector
 	|textElement text |
 	character := aCharacter.
+	attribute := aFontAttributeSelector.
 	text := aCharacter asRopedText.
 	attributes := BlTextAttributesBuilder new.
 	attributes fontName: 'Arial';
 		fontSize: 16;
 		yourself.
-	aFontAttributeSelector ifNotNil: [ attributes perform: aFontAttributeSelector  ].
+	attributes perform: aFontAttributeSelector.
 	attributes applyOn: text.
 
 	textElement := (BlTextElement new text: text; yourself)
