@@ -16,5 +16,6 @@ character: aCharacter attribute: aFontAttributeSelector
 		clipChildren: false;
 		preventMouseEvents;
 		yourself.
-	self replaceChildAt: 1 by: textElement.
+	self removeChildAt: 1.	
+	self addChild: textElement at: 1
 	
