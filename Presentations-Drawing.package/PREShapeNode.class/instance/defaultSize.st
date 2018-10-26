@@ -1,0 +1,3 @@
+initialization
+defaultSize
+	self subclassResponsibility

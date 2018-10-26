@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PREShapeNode",
+	"category" : "Presentations-Drawing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PRECircleNode",
+	"type" : "normal"
+}

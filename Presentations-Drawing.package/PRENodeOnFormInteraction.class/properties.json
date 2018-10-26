@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElementEventListener",
+	"category" : "Presentations-Drawing",
+	"classinstvars" : [
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dragOffset",
+		"target",
+		"wasDrag"
+	],
+	"name" : "PRENodeOnFormInteraction",
+	"type" : "normal"
+}

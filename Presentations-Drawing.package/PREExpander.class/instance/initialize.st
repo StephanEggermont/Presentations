@@ -19,6 +19,8 @@ initialize
 	textPane addField: 'Date'.
 	textPane addField: 'Money'.
 	fontPane addField: 'Arial'.
+	shapePane addShape: PRECircleNode.
+	shapePane addShape: PRERectangleNode.
 	self addChild: textPane.
 	self addChild: shapePane.
 	self addChild: fontPane.
