@@ -10,7 +10,8 @@
 	"instvars" : [
 		"dragOffset",
 		"target",
-		"wasDrag"
+		"wasDrag",
+		"snapLines"
 	],
 	"name" : "PRENodeOnFormInteraction",
 	"type" : "normal"

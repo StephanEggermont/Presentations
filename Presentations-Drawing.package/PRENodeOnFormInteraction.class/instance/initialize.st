@@ -1,4 +1,5 @@
 initialization
 initialize
 	wasDrag := false.
-	super initialize
+	super initialize.
+	snapLines := OrderedCollection new
