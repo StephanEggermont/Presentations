@@ -6,7 +6,10 @@ initialize
 		background: self defaultBackground;
 		border: self defaultBorder;
 		geometry: (BlRectangle cornerRadius: 3);
-		layout: (BlFlowLayout vertical).
+		layout: (BlLinearLayout vertical);
+  		constraintsDo: [ :c | 
+ 			c horizontal matchParent.
+			c vertical fitContent ].
 	titleBar := PREExpanderTitleBar new.
 	self addChild: titleBar.	 
 	pane := BlElement new 
