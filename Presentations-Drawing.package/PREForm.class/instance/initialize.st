@@ -1,7 +1,7 @@
 initialization
 initialize
 	super initialize.
-	self size: 800@5600.
+	self size: 800@600.
 	self background: Color white.
 	self border: (BlBorder paint: Color gray width: 0.5).
 	expander := PREExpander new.

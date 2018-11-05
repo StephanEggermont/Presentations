@@ -5,11 +5,17 @@ calculateSnapLines
 	target parent childrenDo: [ :element |
 		element ~= target ifTrue: [  
 		((element bounds  left) - (target bounds left)) abs < 5 ifTrue: [ 
-		element class = PRERectangleNode ifTrue: [ |line|
+		element class = PRERectangleNode ifTrue: [ |line top bottom|
+			top := element bounds top min: target bounds top.
+			bottom := element bounds bottom max: target bounds bottom.
 			line := BlLineElement new
-				fromAnchor: (BlAbsolutePositionAnchor position: element bounds left @ target bounds top);
-				toAnchor: (BlAbsolutePositionAnchor position: element bounds bottomLeft);
-				border: (BlBorder paint: Color red width: 1);
+				fromAnchor: (BlAbsolutePositionAnchor position: element bounds left @ top);
+				toAnchor: (BlAbsolutePositionAnchor position: element bounds left @ bottom);
+				border: (BlBorder builder 
+					paint: Color red; 
+					width: 0.5;
+					opacity: 0.8;
+					build);
 				yourself.
 			snapLines  add: line.
 		 ]] ]].
