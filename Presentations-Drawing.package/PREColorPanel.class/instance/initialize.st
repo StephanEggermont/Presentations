@@ -1,10 +1,9 @@
 initialization
 initialize
 	super initialize.
-	self size: self defaultSize;
-		background: self defaultBackground;
+	self background: self defaultBackground;
 		border: self defaultBorder;
-		padding: (BlInsets top: 2 right: 2 bottom: 2 left: 2 );
+		padding: (BlInsets top: 2 right: 0 bottom: 2 left: 2 );
 		constraintsDo: [ :c |
 			c horizontal matchParent.
 			c vertical fitContent];

@@ -3,8 +3,7 @@ initialize
 	|textElement|
 	expanded := false.
 	super initialize.
-	self size: self defaultSize;
-		background: self defaultBackground;
+	self background: self defaultBackground;
 		border: self defaultBorder;
 		layout: (BlLinearLayout horizontal);
   		constraintsDo: [ :c | 

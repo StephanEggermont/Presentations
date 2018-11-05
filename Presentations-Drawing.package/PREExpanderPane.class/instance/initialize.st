@@ -13,7 +13,6 @@ initialize
 	titleBar := PREExpanderTitleBar new.
 	self addChild: titleBar.	 
 	pane := BlElement new 
-		size: 150@10;
 		background: self defaultPaneBackground;
 		border: self defaultBorder;
 		constraintsDo: [ :c |
