@@ -6,4 +6,4 @@ title: aString
 	text attributes: { 
 		BlFontFamilyAttribute named: 'Arial'.
 		BlFontSizeAttribute size: 16 } from: 1 to: text size.
-	self children first text: text.
+	self children second text: text.

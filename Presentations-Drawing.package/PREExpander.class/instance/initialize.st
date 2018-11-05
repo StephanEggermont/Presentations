@@ -2,7 +2,7 @@ initialization
 initialize
 	super initialize.
 	self constraintsDo: [ :c |
-		c horizontal fitContent.
+		c horizontal exact: 150.
 		c vertical fitContent.
 		c padding: (BlInsets top: 20 right: 1 bottom: 1 left: 1)].
 	self background: Color lightGray.
