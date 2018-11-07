@@ -6,8 +6,7 @@ character: aCharacter attribute: aFontAttributeSelector
 	text := aCharacter asRopedText.
 	attributes := BlTextAttributesBuilder new.
 	attributes fontName: 'Arial';
-		fontSize: 16;
-		yourself.
+		fontSize: 16.
 	attributes perform: aFontAttributeSelector.
 	attributes applyOn: text.
 

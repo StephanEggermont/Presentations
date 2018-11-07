@@ -1,6 +1,13 @@
 as yet unclassified
 editText
 	| editor label |
+	resizer ifNil: [ 
+		resizer := BlResizerElement on: self.
+		self parent addChild: resizer ]
+	ifNotNil: [ 
+		resizer detach.
+		self parent removeChild: resizer.
+		resizer := nil ].
 	editing ifTrue: [ ^self stopEditText].
 	label := self children first.
 	editor := BrEditorElement  new 
@@ -11,6 +18,4 @@ editText
 		c vertical fitContent ].
 	self removeChild: label.
 	self addChild: editor.
-	self constraintsDo: [ : c |
-		c vertical fitContent ].
 	editing := true.
