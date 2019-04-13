@@ -3,7 +3,7 @@ Creating presentations from Pharo, using Bloc
 
 ## Installation
 
-In a Pharo 6.1 image (with a recent VM), do
+In a Pharo 7 image (with a recent VM), do
 
 ```smalltalk
 Metacello new
